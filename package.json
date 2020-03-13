@@ -1,0 +1,23 @@
+{
+  "name": "serhiiboreiko.github.io",
+  "version": "1.0.0",
+  "description": "Home page for my personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "autoprefixer-cli -o ./dist/main.css ./styles/main.css -b 'last 10 versions'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhiiboreiko/serhiiboreiko.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serhiiboreiko/serhiiboreiko.github.io/issues"
+  },
+  "homepage": "https://github.com/serhiiboreiko/serhiiboreiko.github.io#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0"
+  }
+}
