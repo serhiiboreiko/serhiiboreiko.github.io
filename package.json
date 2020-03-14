@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "autoprefixer-cli -o ./dist/main.css ./styles/main.css -b 'last 10 versions'"
+    "build": "autoprefixer-cli -o ./dist/index.css ./styles/index.css -b 'last 10 versions'"
   },
   "repository": {
     "type": "git",
